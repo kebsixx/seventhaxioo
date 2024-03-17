@@ -1,0 +1,243 @@
+:root {
+  /* CSS HEX */
+  --antiflash-white: rgb(241, 246, 249);
+  --vista-blue: #8691c8;
+  --violet-blue: #5157a6ff;
+  --oxford-blue: #202a3eff;
+  --yinmn-blue: #394967ff;
+  --paynes-gray: #536e82ff;
+  --cadet-gray: rgb(155, 163, 180);
+  --alice-blue: #dde6ed;
+  /* size */
+  --ukuran-font: 5vw;
+  /* margin */
+  --custom-margin-0: 0;
+}
+
+@font-face {
+  font-family: "SpaceHorizon";
+  src: url("fonts/SpaceHorizon-Regular.ttf") format("woff2"), url("fonts/SpaceHorizon-Regular.ttf") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu:wght@300&display=swap");
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+a {
+  color: var(--antiflash-white);
+  text-decoration: none;
+}
+
+.nav-link {
+  border-bottom: 3px solid transparent;
+  color: var(--oxford-blue);
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+  border-bottom: 3px solid #5157a6ff;
+}
+.navbar-nav .nav-link.disabled {
+  color: var(--alice-blue);
+}
+
+.dropdown-item:hover {
+  background-color: var(--antiflash-white);
+}
+
+#backButton {
+  cursor: pointer;
+  flex-wrap: nowrap;
+}
+
+.card {
+  min-height: auto;
+}
+.card-profile {
+  display: flex;
+  justify-content: center;
+}
+.crop-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#home {
+  padding: 10rem 0;
+}
+
+.fs-10vw {
+  font-size: var(--ukuran-font);
+}
+
+.mn {
+  margin-top: -2.5rem;
+}
+
+#about {
+  padding: 5rem 0;
+}
+
+#memori {
+  padding: 5rem 0;
+}
+
+.memori-img:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.teks-putih {
+  color: var(--antiflash-white);
+}
+
+.warna-gelap {
+  color: var(--oxford-blue);
+}
+
+.teks-ungu {
+  color: var(--vista-blue);
+}
+
+.ls-p {
+  letter-spacing: 1px;
+}
+
+.cs {
+  min-width: 100%;
+  min-height: 800px;
+}
+
+.btn-kirim {
+  background-image: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+  margin: 0;
+  padding: 5px 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
+
+.btn-kirim:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.a-footer:hover {
+  color: var(--oxford-blue);
+}
+
+/* Style untuk tombol "to the top" */
+#toTopBtn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  color: var(--antiflash-white);
+  background-color: var(--violet-blue);
+  border: none;
+  border-radius: 50%;
+}
+
+#toTopBtn:hover,
+#toTopBtn:active,
+#toTopBtn:focus {
+  font-weight: bold;
+  outline: none; /* Remove focus border */
+}
+
+.additional-info {
+  display: none;
+}
+
+@media (max-width: 567px) {
+  .ls-567 {
+    letter-spacing: 1px;
+  }
+  .navbar-collapse {
+    margin-left: 0.5rem;
+  }
+  #home {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .blur {
+    backdrop-filter: blur(5px);
+    background-color: rgba(241, 246, 249, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .center-text {
+    text-align: center;
+  }
+  .card-profile {
+    display: flex;
+    justify-content: center;
+  }
+  #home {
+    padding-bottom: 2rem;
+  }
+  .fs-10vw {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .ls-992 {
+    letter-spacing: 2px;
+  }
+  .card-profile {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .ls-10n4 {
+    letter-spacing: 10.4px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mn {
+    margin-top: -1rem;
+  }
+}

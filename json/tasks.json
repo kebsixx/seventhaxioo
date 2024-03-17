@@ -1,0 +1,212 @@
+[
+  {
+    "taskName": "Design Homepage",
+    "description": "Membuat desain homepage untuk website baru.",
+    "status": "In Progress",
+    "creator": "Ayu",
+    "note": "Perlu revisi warna dan layout."
+  },
+  {
+    "taskName": "Develop Login Feature",
+    "description": "Mengembangkan fitur login dengan autentikasi.",
+    "status": "Pending",
+    "creator": "Budi",
+    "note": "Menunggu API dari backend."
+  },
+  {
+    "taskName": "Create Contact Page",
+    "description": "Membuat halaman kontak dengan formulir pengisian.",
+    "status": "Pending",
+    "creator": "Citra",
+    "note": "Menyesuaikan desain dengan tema website."
+  },
+  {
+    "taskName": "Update Product Page",
+    "description": "Memperbarui tampilan halaman produk dengan informasi terbaru.",
+    "status": "In Progress",
+    "creator": "David",
+    "note": "Tambahkan gambar produk terbaru."
+  },
+  {
+    "taskName": "Implement Payment Gateway",
+    "description": "Mengintegrasikan gateway pembayaran ke dalam website.",
+    "status": "Pending",
+    "creator": "Eva",
+    "note": "Pilih gateway pembayaran yang sesuai dengan kebutuhan."
+  },
+  {
+    "taskName": "Optimize Website Performance",
+    "description": "Meningkatkan performa website dengan mengoptimalkan kode dan gambar.",
+    "status": "Complete",
+    "creator": "Farhan",
+    "note": "Gunakan teknik caching untuk mempercepat waktu muat halaman."
+  },
+  {
+    "taskName": "Create Blog Section",
+    "description": "Menambahkan bagian blog ke dalam website.",
+    "status": "Complete",
+    "creator": "Gita",
+    "note": "Desain antarmuka untuk menampilkan posting blog."
+  },
+  {
+    "taskName": "Setup Analytics Integration",
+    "description": "Mengatur integrasi analitik untuk melacak kinerja website.",
+    "status": "In Progress",
+    "creator": "Hendra",
+    "note": "Mendaftarkan website ke layanan analitik dan mengonfigurasi kode pelacakan."
+  },
+  {
+    "taskName": "Fix Broken Links",
+    "description": "Memperbaiki tautan yang rusak di website.",
+    "status": "Pending",
+    "creator": "Ira",
+    "note": "Menggunakan alat pemindai tautan untuk menemukan dan memperbaiki tautan yang rusak."
+  },
+  {
+    "taskName": "Create FAQ Page",
+    "description": "Menambahkan halaman FAQ (Frequently Asked Questions) ke dalam website.",
+    "status": "Complete",
+    "creator": "Joko",
+    "note": "Kumpulkan pertanyaan umum dari pelanggan dan buat jawaban yang informatif."
+  },
+  {
+    "taskName": "Translate Website Content",
+    "description": "Menerjemahkan konten website ke dalam beberapa bahasa.",
+    "status": "Complete",
+    "creator": "Kartika",
+    "note": "Gunakan layanan penerjemahan daring untuk mempercepat proses penerjemahan."
+  },
+  {
+    "taskName": "Create User Documentation",
+    "description": "Membuat dokumentasi pengguna untuk memandu pengguna dalam menggunakan website.",
+    "status": "Pending",
+    "creator": "Lukman",
+    "note": "Tulis instruksi langkah demi langkah dengan jelas dan mudah dipahami."
+  },
+  {
+    "taskName": "Perform Security Audit",
+    "description": "Melakukan audit keamanan untuk mengidentifikasi kerentanan dan risiko keamanan website.",
+    "status": "Pending",
+    "creator": "Mira",
+    "note": "Gunakan alat pengujian keamanan untuk menemukan dan memperbaiki kerentanan."
+  },
+  {
+    "taskName": "Setup Email Newsletter",
+    "description": "Mengatur newsletter email untuk mengirimkan pembaruan dan promosi kepada pelanggan.",
+    "status": "Complete",
+    "creator": "Nanda",
+    "note": "Pilih platform email marketing yang dapat diintegrasikan dengan sistem."
+  },
+  {
+    "taskName": "Create Video Tutorials",
+    "description": "Membuat tutorial video untuk membantu pengguna dalam menggunakan fitur website.",
+    "status": "Pending",
+    "creator": "Oscar",
+    "note": "Gunakan perangkat lunak perekam layar untuk membuat tutorial video."
+  },
+  {
+    "taskName": "Perbarui Konten Website",
+    "description": "Memperbarui konten website dengan informasi terbaru.",
+    "status": "In Progress",
+    "creator": "Prita",
+    "note": "Sertakan berita dan acara terkini."
+  },
+  {
+    "taskName": "Tingkatkan Pengalaman Pengguna",
+    "description": "Meningkatkan pengalaman pengguna dengan mengoptimalkan navigasi dan tata letak.",
+    "status": "Pending",
+    "creator": "Qori",
+    "note": "Lakukan pengujian kegunaan untuk umpan balik."
+  },
+  {
+    "taskName": "Perbaiki Bug Formulir Kontak",
+    "description": "Memperbaiki masalah dengan pengiriman formulir kontak.",
+    "status": "Pending",
+    "creator": "Rizki",
+    "note": "Uji fungsionalitas formulir di berbagai perangkat."
+  },
+  {
+    "taskName": "Implementasikan Tombol Berbagi Sosial",
+    "description": "Menambahkan tombol berbagi sosial ke halaman website.",
+    "status": "In Progress",
+    "creator": "Sinta",
+    "note": "Sertakan tombol untuk platform media sosial populer."
+  },
+  {
+    "taskName": "Buat Halaman Tunggal",
+    "description": "Merancang halaman tunggal untuk kampanye pemasaran.",
+    "status": "Pending",
+    "creator": "Tito",
+    "note": "Highlight fitur dan keuntungan utama."
+  },
+  {
+    "taskName": "Atur Hosting Website",
+    "description": "Mengonfigurasi layanan hosting web untuk penyebaran website.",
+    "status": "In Progress",
+    "creator": "Umi",
+    "note": "Pilih penyedia hosting yang dapat diandalkan."
+  },
+  {
+    "taskName": "Lakukan Audit SEO",
+    "description": "Melakukan audit optimasi mesin pencari untuk meningkatkan visibilitas website.",
+    "status": "In Progress",
+    "creator": "Vina",
+    "note": "Optimalkan tag meta dan struktur website."
+  },
+  {
+    "taskName": "Buat Kasus Uji",
+    "description": "Mengembangkan kasus uji untuk pengujian fungsionalitas website.",
+    "status": "Pending",
+    "creator": "Wawan",
+    "note": "Cakup berbagai skenario dan kasus ekstrem."
+  },
+  {
+    "taskName": "Atur Lingkungan Pengembangan",
+    "description": "Menyiapkan lingkungan pengembangan untuk pembaruan dan perawatan website.",
+    "status": "Complete",
+    "creator": "Xavier",
+    "note": "Instal alat dan dependensi yang diperlukan."
+  },
+  {
+    "taskName": "Buat Formulir Umpan Balik Pelanggan",
+    "description": "Merancang formulir untuk mengumpulkan umpan balik dari pengunjung website.",
+    "status": "Pending",
+    "creator": "Yuli",
+    "note": "Sertakan pertanyaan tentang kepuasan pengguna dan saran untuk perbaikan."
+  },
+  {
+    "taskName": "Implementasikan Sertifikat SSL",
+    "description": "Menginstal sertifikat SSL untuk mengamankan koneksi website.",
+    "status": "Pending",
+    "creator": "Zara",
+    "note": "Pastikan enkripsi data dan keandalan."
+  },
+  {
+    "taskName": "Atur Backup Website",
+    "description": "Mengonfigurasi pencadangan otomatis untuk file website dan database.",
+    "status": "Complete",
+    "creator": "Andi",
+    "note": "Pilih solusi pencadangan yang dapat diandalkan dan jadwalkan pencadangan secara teratur."
+  },
+  {
+    "taskName": "Buat Toko Online",
+    "description": "Membangun platform e-commerce untuk penjualan online.",
+    "status": "Pending",
+    "creator": "Bambang",
+    "note": "Integrasikan gateway pembayaran dan katalog produk."
+  },
+  {
+    "taskName": "Optimalkan Responsif Mobile",
+    "description": "Meningkatkan tata letak dan desain website untuk perangkat mobile.",
+    "status": "Pending",
+    "creator": "Citra",
+    "note": "Uji responsivitas di berbagai ukuran layar."
+  },
+  {
+    "taskName": "Implementasikan Banner Pemberitahuan Cookie",
+    "description": "Menambahkan banner untuk memberi tahu pengguna tentang penggunaan cookie di website.",
+    "status": "Pending",
+    "creator": "Dedi",
+    "note": "Patuhi regulasi dan panduan privasi."
+  }
+]

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tambahkan Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="icon" href="img/axse3.png" />
+    <title>Anggota | axioo class</title>
+    <style>
+      /* CSS tambahan untuk menengahkan teks di tengah halaman */
+      .centered-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150vh; /* Membuat tinggi setara dengan tinggi viewport */
+        text-align: center; /* Menengahkan teks secara horizontal */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: none">
+      <div class="container rounded-5" style="background-color: rgba(241, 246, 249, 0.6); backdrop-filter: blur(5px)">
+        <a class="navbar-brand text-center ps-2" href="#" style="font-family: 'SpaceHorizon', sans-serif">axse</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#memori">Memories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#form">Menfes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+              <ul class="dropdown-menu dropdown-menu-end mb-2 rounded-2 border-0" style="background-color: rgba(241, 246, 249, 0.8)">
+                <li><a class="dropdown-item" href="members.html">Members</a></li>
+                <li><a class="dropdown-item" href="task.html">Taks</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar search -->
+    <div class="container">
+      <nav class="navbar z-1 mt-4 rounded-2" style="background-color: transparent">
+        <div class="container-fluid justify-content-end">
+          <a id="backButton" class="text-primary me-2">see all</a>
+          <form class="d-flex" id="searchForm">
+            <input class="form-control me-2 fs-6 rounded-5" type="search" placeholder="Search Name" aria-label="Search" id="searchInput" />
+            <button class="btn btn-outline-primary rounded-5" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- content -->
+    <div class="container">
+      <!-- Div untuk menampilkan hasil pencarian -->
+      <div id="searchResults"></div>
+
+      <div id="memberCards">
+        <!-- Cards akan ditambahkan di sini menggunakan JavaScript -->
+      </div>
+    </div>
+    <!-- content end -->
+
+    <!-- footer -->
+    <footer class="mt-5 mb-4" id="footer">
+      <div class="container teks-putih">
+        <hr />
+        <div class="row">
+          <div class="col-md">
+            <div class="footer-bottom">Copyright <i class="bi bi-c-circle"></i> 2024 XI RPL 1 | Designed by Tim Web XI 1</div>
+          </div>
+          <div class="col-md text-end">
+            <a href="https://www.instagram.com/axse.11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram p-2 teks-putih a-footer"></i></a>
+            <a href="#footer"><i class="bi bi-twitter-x p-2 teks-putih a-footer"></i></a>
+            <a href="#footer"><i class="bi bi-facebook p-2 teks-putih a-footer"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- button back to top -->
+    <button id="toTopBtn" class="btn btn-primary" onclick="scrollToTop()"><i class="bi bi-arrow-up text-putih"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      // Fungsi untuk menampilkan atau menyembunyikan tombol berdasarkan posisi scroll
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        var toTopBtn = document.getElementById("toTopBtn");
+
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          toTopBtn.style.display = "block";
+        } else {
+          toTopBtn.style.display = "none";
+        }
+      }
+
+      // Fungsi untuk kembali ke atas
+      function scrollToTop() {
+        document.body.scrollTop = 0; // Untuk Safari
+        document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE, dan Opera
+      }
+    </script>
+  </body>
+</html>
